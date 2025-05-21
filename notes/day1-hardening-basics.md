@@ -15,6 +15,7 @@ Default Linux installations may have:
 - Unnecessary daemons
 
 Hardening helps:
+
 ✅ Reduce attack surface  
 ✅ Improve defense against threats  
 ✅ Achieve compliance
