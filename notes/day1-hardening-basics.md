@@ -1,22 +1,25 @@
-# 📚 Day 1 – Hardening Basics
+# 📚 Day 1 – Understanding Hardening
 
-## What is Hardening?
-Hardening is the process of securing a system by reducing its surface of vulnerability. It involves:
-- Disabling unnecessary services
-- Removing unused software
-- Enforcing secure configurations
+## 🔐 What is System Hardening?
+System hardening is the process of tightening security by reducing vulnerabilities in a Linux system.
 
-## Why is it Needed?
-A default Linux system might have open ports, services, and weak policies that attackers exploit. Hardening helps:
-- Reduce attack surface
-- Increase resistance against threats
-- Ensure compliance with best practices
+### Examples:
+- 🔒 Disabling root SSH login
+- ❌ Removing unused packages/services
+- 🔧 Setting secure file permissions
 
-## Real-world Examples
-- Disable SSH login for root
-- Uninstall FTP server if not used
+## 🚨 Why It Matters
+Default Linux installations may have:
+- Open ports
+- Weak configurations
+- Unnecessary daemons
 
-## Next Steps
-- Learn file permissions
-- Explore audit tools
-- Begin scripting checks
+Hardening helps:
+✅ Reduce attack surface  
+✅ Improve defense against threats  
+✅ Achieve compliance
+
+## 📌 Next Steps
+- Learn Linux file & directory permissions
+- Explore `auditd`, `ufw`, and password policies
+- Start automating basic checks
